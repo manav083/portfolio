@@ -7,6 +7,15 @@
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: royalblue;
+}
+
 body{
     font-family: 'Source Sans Pro', sans-serif;
     height: 100vh;
